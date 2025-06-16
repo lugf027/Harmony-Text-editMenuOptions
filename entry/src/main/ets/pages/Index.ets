@@ -26,8 +26,8 @@ struct TextExample12 {
       id: TextMenuItemId.of(RETURN_TRUE),
     };
     let item2: TextMenuItem = {
-      content: RETURN_TRUE,
-      id: TextMenuItemId.of(RETURN_TRUE),
+      content: RETURN_FALSE,
+      id: TextMenuItemId.of(RETURN_FALSE),
     };
     menuItems.length = 0;
     menuItems.push(item1);
